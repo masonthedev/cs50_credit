@@ -2,6 +2,10 @@
 
 In this assignment I was to use Luhns Algorithm to identify whether a credit card was a valid American Express, MasterCard, or Visa card number. If not, I was top return INVALID.
 
+The only code that was provided was the header files.
+#include <cs50.h>
+#include <stdio.h>
+
 Of course there are a number of ways that credit card numbers are calculated. This assignment assumed all American Express numbers start with 34 or 37; most MasterCard numbers start with 51, 52, 53, 54, or 55; and all Visa numbers start with 4.
 
 I also had to use the fact that credit card numbers have a “checksum” built into them which is a mathematical relationship between at least one number and others. The checksum enables computers to detect typos (e.g., transpositions), or fraudulent numbers, without having to query a database, which can be slow.
