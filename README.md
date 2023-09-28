@@ -2,7 +2,7 @@
 
 In this assignment I was to use Luhns Algorithm to identify whether a credit card was a valid American Express, MasterCard, or Visa card number. If not, I was top return INVALID.
 
-The only code that was provided was the header files.
+The only code provided for this assignment was the header files.
 #include <cs50.h>
 #include <stdio.h>
 
